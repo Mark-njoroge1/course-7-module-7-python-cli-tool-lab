@@ -6,6 +6,8 @@ class Task:
     def complete(self):
         self.completed = True
         print(f"✅ Task '{self.title}' completed.")
+
+
 class User:
     def __init__(self, name):
         self.name = name
